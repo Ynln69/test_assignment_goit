@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/test_assignment_goit/static/css/main.073c9b0a.css",
-    "main.js": "/test_assignment_goit/static/js/main.9fa0e653.js",
-    "static/js/787.75402801.chunk.js": "/test_assignment_goit/static/js/787.75402801.chunk.js",
-    "static/media/logo.svg": "/test_assignment_goit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/test_assignment_goit/index.html",
-    "main.073c9b0a.css.map": "/test_assignment_goit/static/css/main.073c9b0a.css.map",
-    "main.9fa0e653.js.map": "/test_assignment_goit/static/js/main.9fa0e653.js.map",
-    "787.75402801.chunk.js.map": "/test_assignment_goit/static/js/787.75402801.chunk.js.map"
+    "main.css": "/user-card-app/static/css/main.073c9b0a.css",
+    "main.js": "/user-card-app/static/js/main.e501b4fe.js",
+    "static/js/787.75402801.chunk.js": "/user-card-app/static/js/787.75402801.chunk.js",
+    "static/media/logo.svg": "/user-card-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/user-card-app/index.html",
+    "main.073c9b0a.css.map": "/user-card-app/static/css/main.073c9b0a.css.map",
+    "main.e501b4fe.js.map": "/user-card-app/static/js/main.e501b4fe.js.map",
+    "787.75402801.chunk.js.map": "/user-card-app/static/js/787.75402801.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9fa0e653.js"
+    "static/js/main.e501b4fe.js"
   ]
 }

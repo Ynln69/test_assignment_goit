@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/user-card-app/static/css/main.073c9b0a.css",
-    "main.js": "/user-card-app/static/js/main.e501b4fe.js",
-    "static/js/787.75402801.chunk.js": "/user-card-app/static/js/787.75402801.chunk.js",
-    "static/media/logo.svg": "/user-card-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/user-card-app/static/css/main.784e177a.css",
+    "main.js": "/user-card-app/static/js/main.97bd250f.js",
+    "static/js/415.37a52266.chunk.js": "/user-card-app/static/js/415.37a52266.chunk.js",
+    "static/js/886.f25260b9.chunk.js": "/user-card-app/static/js/886.f25260b9.chunk.js",
+    "static/js/391.d0611c74.chunk.js": "/user-card-app/static/js/391.d0611c74.chunk.js",
+    "static/js/816.662c405b.chunk.js": "/user-card-app/static/js/816.662c405b.chunk.js",
+    "static/js/523.acff04a5.chunk.js": "/user-card-app/static/js/523.acff04a5.chunk.js",
+    "static/js/686.ea953a37.chunk.js": "/user-card-app/static/js/686.ea953a37.chunk.js",
+    "static/media/bgi.jpg": "/user-card-app/static/media/bgi.32596699b90fd8c02fc8.jpg",
+    "static/media/picture.png": "/user-card-app/static/media/picture.032662a2a907475127d7.png",
     "index.html": "/user-card-app/index.html",
-    "main.073c9b0a.css.map": "/user-card-app/static/css/main.073c9b0a.css.map",
-    "main.e501b4fe.js.map": "/user-card-app/static/js/main.e501b4fe.js.map",
-    "787.75402801.chunk.js.map": "/user-card-app/static/js/787.75402801.chunk.js.map"
+    "main.784e177a.css.map": "/user-card-app/static/css/main.784e177a.css.map",
+    "main.97bd250f.js.map": "/user-card-app/static/js/main.97bd250f.js.map",
+    "415.37a52266.chunk.js.map": "/user-card-app/static/js/415.37a52266.chunk.js.map",
+    "886.f25260b9.chunk.js.map": "/user-card-app/static/js/886.f25260b9.chunk.js.map",
+    "391.d0611c74.chunk.js.map": "/user-card-app/static/js/391.d0611c74.chunk.js.map",
+    "816.662c405b.chunk.js.map": "/user-card-app/static/js/816.662c405b.chunk.js.map",
+    "523.acff04a5.chunk.js.map": "/user-card-app/static/js/523.acff04a5.chunk.js.map",
+    "686.ea953a37.chunk.js.map": "/user-card-app/static/js/686.ea953a37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e501b4fe.js"
+    "static/css/main.784e177a.css",
+    "static/js/main.97bd250f.js"
   ]
 }

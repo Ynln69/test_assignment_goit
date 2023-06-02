@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/user-card-app/static/css/main.784e177a.css",
-    "main.js": "/user-card-app/static/js/main.97bd250f.js",
-    "static/js/415.37a52266.chunk.js": "/user-card-app/static/js/415.37a52266.chunk.js",
-    "static/js/886.f25260b9.chunk.js": "/user-card-app/static/js/886.f25260b9.chunk.js",
-    "static/js/391.d0611c74.chunk.js": "/user-card-app/static/js/391.d0611c74.chunk.js",
+    "main.js": "/user-card-app/static/js/main.4dab0739.js",
+    "static/js/136.1d411f6a.chunk.js": "/user-card-app/static/js/136.1d411f6a.chunk.js",
+    "static/js/886.0753e33c.chunk.js": "/user-card-app/static/js/886.0753e33c.chunk.js",
+    "static/js/187.04d32324.chunk.js": "/user-card-app/static/js/187.04d32324.chunk.js",
     "static/js/816.662c405b.chunk.js": "/user-card-app/static/js/816.662c405b.chunk.js",
     "static/js/523.acff04a5.chunk.js": "/user-card-app/static/js/523.acff04a5.chunk.js",
     "static/js/686.ea953a37.chunk.js": "/user-card-app/static/js/686.ea953a37.chunk.js",
+    "static/media/Follow.png": "/user-card-app/static/media/Follow.41fc8fd3c7d3b72b53cd.png",
     "static/media/bgi.jpg": "/user-card-app/static/media/bgi.32596699b90fd8c02fc8.jpg",
     "static/media/picture.png": "/user-card-app/static/media/picture.032662a2a907475127d7.png",
     "index.html": "/user-card-app/index.html",
+    "static/media/arrow-left.svg": "/user-card-app/static/media/arrow-left.da1d7806a30e85de400a05adb0a08481.svg",
     "main.784e177a.css.map": "/user-card-app/static/css/main.784e177a.css.map",
-    "main.97bd250f.js.map": "/user-card-app/static/js/main.97bd250f.js.map",
-    "415.37a52266.chunk.js.map": "/user-card-app/static/js/415.37a52266.chunk.js.map",
-    "886.f25260b9.chunk.js.map": "/user-card-app/static/js/886.f25260b9.chunk.js.map",
-    "391.d0611c74.chunk.js.map": "/user-card-app/static/js/391.d0611c74.chunk.js.map",
+    "main.4dab0739.js.map": "/user-card-app/static/js/main.4dab0739.js.map",
+    "136.1d411f6a.chunk.js.map": "/user-card-app/static/js/136.1d411f6a.chunk.js.map",
+    "886.0753e33c.chunk.js.map": "/user-card-app/static/js/886.0753e33c.chunk.js.map",
+    "187.04d32324.chunk.js.map": "/user-card-app/static/js/187.04d32324.chunk.js.map",
     "816.662c405b.chunk.js.map": "/user-card-app/static/js/816.662c405b.chunk.js.map",
     "523.acff04a5.chunk.js.map": "/user-card-app/static/js/523.acff04a5.chunk.js.map",
     "686.ea953a37.chunk.js.map": "/user-card-app/static/js/686.ea953a37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.784e177a.css",
-    "static/js/main.97bd250f.js"
+    "static/js/main.4dab0739.js"
   ]
 }

@@ -21,5 +21,5 @@ This is a simple web application that implements user cards based on the provide
 
 ## Author
 
-Name: Yana Lunina
-Email: yanalunina96@gmail.com
+- Name: Yana Lunina
+- Email: yanalunina96@gmail.com

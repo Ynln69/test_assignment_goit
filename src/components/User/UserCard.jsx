@@ -34,7 +34,9 @@ const UserCard = ({ user, tweets, followers, avatar, id }) => {
         <img src={avatar} alt="user" width="62" height="62" />
       </AvatarContainer>
       <ListInfo>
-        <li>{user}</li>
+        <li>
+          <p>{user}</p>
+        </li>
         <li>{tweets} tweets</li>
         <li>{isFollowing ? followers + 1 : followers} Followers</li>
       </ListInfo>

@@ -78,6 +78,9 @@ export const ListInfo = styled.ul`
     font-size: 20px;
     line-height: calc(24 / 20);
     text-transform: uppercase;
+    > p {
+      color: #00ff00;
+    }
   }
 `;
 

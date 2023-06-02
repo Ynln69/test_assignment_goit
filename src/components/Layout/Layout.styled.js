@@ -6,6 +6,9 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
+  z-index: 10;
+  position: fixed;
+  width: 100%;
   padding: 15px 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px -1px;
   background-color: rgba(0, 0, 0, 0.3);

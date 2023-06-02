@@ -1,6 +1,6 @@
+import { useState, useEffect } from "react";
 import Logo from "../../images/logo.png";
 import Picture from "../../images/picture.png";
-// import Avatar from "../../images/Hansel.png";
 import {
   UserItem,
   UserLogo,
@@ -12,6 +12,19 @@ import {
 } from "./UserCard.styled";
 
 const UserCard = ({ user, tweets, followers, avatar, id }) => {
+  const KEY = `isFollowing_${id}`;
+  const [isFollowing, setIsFollowing] = useState(
+    JSON.parse(localStorage.getItem(KEY)) || false
+  );
+
+  useEffect(() => {
+    localStorage.setItem(KEY, JSON.stringify(isFollowing));
+  }, [id, isFollowing, KEY]);
+
+  const handleFollow = () => {
+    setIsFollowing(!isFollowing);
+  };
+
   return (
     <UserItem key={id}>
       <UserLogo src={Logo} alt="card logo" />
@@ -20,12 +33,14 @@ const UserCard = ({ user, tweets, followers, avatar, id }) => {
       <AvatarContainer>
         <img src={avatar} alt="user" width="62" height="62" />
       </AvatarContainer>
-      <ListInfo className="list-info">
+      <ListInfo>
         <li>{user}</li>
         <li>{tweets} tweets</li>
-        <li>{followers} Followers</li>
+        <li>{isFollowing ? followers + 1 : followers} Followers</li>
       </ListInfo>
-      <UserBtn>Follow</UserBtn>
+      <UserBtn onClick={handleFollow} isFollowing={isFollowing}>
+        {isFollowing ? "Following" : "Follow"}
+      </UserBtn>
     </UserItem>
   );
 };

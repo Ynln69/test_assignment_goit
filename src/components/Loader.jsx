@@ -1,6 +1,7 @@
 import { MutatingDots } from "react-loader-spinner";
 
 const loaderBox = {
+  padding: 100,
   display: "flex",
   justifyContent: "center",
 };

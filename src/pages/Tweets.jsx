@@ -1,8 +1,11 @@
 import Notiflix from "notiflix";
 import { useEffect, useState } from "react";
+import { useGetUsersQuery } from "redux/userApi";
 import UserCard from "components/User/UserCard";
 import UserList from "components/UserList/UserList";
-import { useGetUsersQuery } from "redux/userApi";
+import BackLink from "components/BackLink/BackLink";
+
+import { TweetsSection, LoadMore } from "./Tweets.styled";
 
 const TweetsPage = () => {
   const { data } = useGetUsersQuery();
@@ -19,8 +22,8 @@ const TweetsPage = () => {
   }, [data, visibleCards]);
 
   return (
-    <section>
-      <h1>Tweets</h1>
+    <TweetsSection>
+      <BackLink />
       <UserList>
         {data &&
           data
@@ -28,9 +31,9 @@ const TweetsPage = () => {
             .map((user) => <UserCard key={user.id} {...user} />)}
       </UserList>
       {data && visibleCards < data.length && (
-        <button onClick={handleLoadMore}>Load More</button>
+        <LoadMore onClick={handleLoadMore}>Load More</LoadMore>
       )}
-    </section>
+    </TweetsSection>
   );
 };
 

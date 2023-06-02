@@ -1,8 +1,14 @@
+import { Link } from "react-router-dom";
+import LogoHome from "../images/Follow.png";
+import { HomeSection } from "./HomePage.styled";
+
 const HomePage = () => {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <HomeSection>
+      <Link to="/tweets">
+        <img src={LogoHome} alt="follow me" width="550" />
+      </Link>
+    </HomeSection>
   );
 };
 

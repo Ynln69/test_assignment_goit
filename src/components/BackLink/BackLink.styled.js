@@ -6,7 +6,6 @@ export const BackLinkBtn = styled(Link)`
   align-items: center;
   gap: 15px;
   border: none;
-  margin-bottom: 20px;
   cursor: pointer;
 
   color: #373737;

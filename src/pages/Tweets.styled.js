@@ -5,6 +5,13 @@ export const TweetsSection = styled.section`
   text-align: center;
 `;
 
+export const TweetsBoxFilter = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+`;
+
 export const LoadMore = styled.button`
   padding: 14px 56px;
   margin-top: 40px;

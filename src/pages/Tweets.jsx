@@ -5,7 +5,7 @@ import UserCard from "components/User/UserCard";
 import UserList from "components/UserList/UserList";
 import BackLink from "components/BackLink/BackLink";
 
-import { TweetsSection, LoadMore } from "./Tweets.styled";
+import { TweetsSection, LoadMore, TweetsBoxFilter } from "./Tweets.styled";
 
 const TweetsPage = () => {
   const { data } = useGetUsersQuery();
@@ -23,7 +23,9 @@ const TweetsPage = () => {
 
   return (
     <TweetsSection>
-      <BackLink />
+      <TweetsBoxFilter>
+        <BackLink />
+      </TweetsBoxFilter>
       <UserList>
         {data &&
           data

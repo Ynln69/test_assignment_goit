@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/user-card-app/static/css/main.784e177a.css",
-    "main.js": "/user-card-app/static/js/main.601015db.js",
+    "main.js": "/user-card-app/static/js/main.a3686860.js",
     "static/js/136.ea041152.chunk.js": "/user-card-app/static/js/136.ea041152.chunk.js",
     "static/js/886.0753e33c.chunk.js": "/user-card-app/static/js/886.0753e33c.chunk.js",
     "static/js/187.508da904.chunk.js": "/user-card-app/static/js/187.508da904.chunk.js",
@@ -14,7 +14,7 @@
     "index.html": "/user-card-app/index.html",
     "static/media/arrow-left.svg": "/user-card-app/static/media/arrow-left.da1d7806a30e85de400a05adb0a08481.svg",
     "main.784e177a.css.map": "/user-card-app/static/css/main.784e177a.css.map",
-    "main.601015db.js.map": "/user-card-app/static/js/main.601015db.js.map",
+    "main.a3686860.js.map": "/user-card-app/static/js/main.a3686860.js.map",
     "136.ea041152.chunk.js.map": "/user-card-app/static/js/136.ea041152.chunk.js.map",
     "886.0753e33c.chunk.js.map": "/user-card-app/static/js/886.0753e33c.chunk.js.map",
     "187.508da904.chunk.js.map": "/user-card-app/static/js/187.508da904.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.784e177a.css",
-    "static/js/main.601015db.js"
+    "static/js/main.a3686860.js"
   ]
 }

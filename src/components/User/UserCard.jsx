@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import Logo from "../../images/logo.png";
 import Picture from "../../images/picture.png";
@@ -45,6 +46,14 @@ const UserCard = ({ user, tweets, followers, avatar, id }) => {
       </UserBtn>
     </UserItem>
   );
+};
+
+UserCard.propTypes = {
+  id: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+  tweets: PropTypes.number.isRequired,
+  user: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
 };
 
 export default UserCard;

@@ -4,8 +4,7 @@ const NotFound = () => {
   return (
     <section
       style={{
-        padding: "30px 16px",
-        backgroundColor: "#FFEFD5",
+        padding: "130px 16px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

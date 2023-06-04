@@ -1,16 +1,18 @@
 import NotFoundImg from "../images/404 robot.png";
+import BackLink from "./BackLink/BackLink";
 
 const NotFound = () => {
   return (
     <section
       style={{
-        padding: "130px 16px",
+        padding: "80px 16px",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
       }}
     >
+      <BackLink />
       <h1
         style={{
           fontSize: "xxx-large",
